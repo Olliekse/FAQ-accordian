@@ -140,27 +140,31 @@ padding: 0;
   }
   
   .faq__container {
-    max-width: 644px;
-    max-height: 666px;
-    top: 15%;
-    left: 10%;
-    right: 10%;
-    bottom: 10%;
+    /* max-width: 644px;
+    max-height: 666px; */
+    top: 20%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  padding: 20px;
   }
 
   .faq__divider {
     margin: 15px 0;
   }
 
+  .faq__question {
+    margin-bottom: 10px;
+   }
+
 }
 
 @media screen and (max-width: 375px) {
   .faq__container {
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    bottom: 20%;
-    padding: 15px;
+    top: 20%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
   }
 
  .faq__question {
